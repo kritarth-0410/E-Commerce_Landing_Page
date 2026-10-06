@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: olive;
+    padding: 20px 40px;
+    
+}
