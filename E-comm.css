@@ -5,11 +5,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body{
+    background-color: #F9F8F4;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(18, 37, 96);
+    background-color: #3A4A3F;
     padding: 20px 40px;
     
 }
@@ -138,19 +141,40 @@ a{
     justify-content: center;
     gap: 40px;
     padding: 60px;
+    margin-bottom: 100px;
 }
 
 .card{
     width: 280px;
     border: 1px solid rgb(126, 119, 119);
     border-radius: 8px;
+    background-color: white;
 }
 
-#img{
+#img-1{
     width: 100%;
     height: 220px;
     background-color: grey;
     border-radius: 8px 8px 0 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVOhbPb_54A6Xk4KmaqVMBIU7c23tkxwQFYolFoNNtQ&s);
+    background-position: center;
+    
+}
+#img-2{
+    width: 100%;
+    height: 220px;
+    background-color: grey;
+    border-radius: 8px 8px 0 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7k3QqiWEl7LbhImPvKRVcl4dzuvc4-rb41zYV9GXNQ&s);
+
+}
+#img-3{
+    width: 100%;
+    height: 220px;
+    background-color: grey;
+    border-radius: 8px 8px 0 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYB_oyITUOoGkKMvQ6ymlEgBQvnPN8wL8Gq9FGKZHoOA&s=10);
+    background-position: center;
 
 }
 
@@ -187,7 +211,7 @@ a{
 .foot{
     width: 100%;
     height: 85px;
-    background-color: black;
+    background-color: #3A4A3F;
     color: white;
     display: flex;
     justify-content: center;
